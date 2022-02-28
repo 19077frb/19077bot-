@@ -1,6 +1,40 @@
 # bot使用说明
 
-[TOC]
+- [bot使用说明](#bot使用说明)
+  - [引言](#引言)
+  - [特殊插件](#特殊插件)
+    - [nonebot_plugin_alias | 别名设置](#nonebot_plugin_alias--别名设置)
+    - [nonebot_plugin_help | 帮助插件](#nonebot_plugin_help--帮助插件)
+    - [nonebot_plugin_status | 服务器状态查看](#nonebot_plugin_status--服务器状态查看)
+  - [指令插件](#指令插件)
+    - [nonebot_plugin_abbrreply | 缩写查询](#nonebot_plugin_abbrreply--缩写查询)
+    - [nonebot_plugin_asoulcnki | 枝网查重](#nonebot_plugin_asoulcnki--枝网查重)
+    - [nonebot_plugin_code | 在线运行代码](#nonebot_plugin_code--在线运行代码)
+    - [nonebot_plugin_covid19_news | 国内新冠消息查询](#nonebot_plugin_covid19_news--国内新冠消息查询)
+    - [nonebot_plugin_fortune | 运势](#nonebot_plugin_fortune--运势)
+    - [nonebot_plugin_gamedraw | 模拟抽卡](#nonebot_plugin_gamedraw--模拟抽卡)
+    - [nonebot_plugin_morning | 早晚安](#nonebot_plugin_morning--早晚安)
+    - [nonebot_plugin_read_60s | 观世界](#nonebot_plugin_read_60s--观世界)
+    - [nonebot_plugin_roll | 掷色子](#nonebot_plugin_roll--掷色子)
+    - [nonebot_plugin_translator | 翻译插件](#nonebot_plugin_translator--翻译插件)
+    - [nonebot_plugin_weather_lite | 看天气](#nonebot_plugin_weather_lite--看天气)
+    - [nonebot_plugin_what2eat | 吃什么](#nonebot_plugin_what2eat--吃什么)
+    - [nonebot_plugin_word_bank2 | 问答插件](#nonebot_plugin_word_bank2--问答插件)
+    - [nonebot_plugin_youthstudy | 青年大学习](#nonebot_plugin_youthstudy--青年大学习)
+    - [random_cat_gif | 随机猫猫(加载很慢，慎用）](#random_cat_gif--随机猫猫加载很慢慎用)
+  - [@指令插件(需要@机器人才能触发)](#指令插件需要机器人才能触发)
+    - [nonebot_plugin_caiyunai | 彩云小梦AI续写](#nonebot_plugin_caiyunai--彩云小梦ai续写)
+    - [nonebot_plugin_chess | 棋类游戏](#nonebot_plugin_chess--棋类游戏)
+    - [nonebot_plugin_remake | 人生重开模拟器](#nonebot_plugin_remake--人生重开模拟器)
+    - [nonebot_plugin_withdraw | 撤回插件](#nonebot_plugin_withdraw--撤回插件)
+    - [haruka_bot | B站推送](#haruka_bot--b站推送)
+  - [非指令插件（无需前缀指令）](#非指令插件无需前缀指令)
+    - [nonebot_plugin_analysis_bilibili |bilibili视频、番剧解析](#nonebot_plugin_analysis_bilibili-bilibili视频番剧解析)
+    - [nonebot_plugin_emojimix | emoji 合成器](#nonebot_plugin_emojimix--emoji-合成器)
+    - [nonebot_plugin_repeater | 复读插件](#nonebot_plugin_repeater--复读插件)
+  - [无用插件（仅提供编写机器人代码支持）](#无用插件仅提供编写机器人代码支持)
+    - [nonebot_plugin_apscheduler](#nonebot_plugin_apscheduler)
+    - [nonebot_plugin_htmlrender](#nonebot_plugin_htmlrender)
 
 ## 引言
 
@@ -530,7 +564,6 @@ code [语言] [-i] [inputText]
 ###  nonebot_plugin_htmlrender 
 
 [^备注]: author：方任斌   qq：877067309
-
 
 
 
