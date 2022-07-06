@@ -1,0 +1,4 @@
+[2022-06-24 06:01:05] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2022-06-24 06:01:11] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2022-06-24 15:11:46] [ERROR]: Protocol -> unexpected disconnect: EOF 
+[2022-06-24 19:52:48] [ERROR]: Protocol -> unexpected disconnect: EOF 
